@@ -3,7 +3,7 @@
 echo $$ >> ~/run_tests.pid
 
 DEVSTACK_GATE_REPO="https://github.com/citrix-openstack/devstack-gate"
-DEVSTACK_GATE_BRANCH="master"
+DEVSTACK_GATE_BRANCH="rebase4XS65env"
 
 # Trap the exit code + log a final message
 function trapexit {
